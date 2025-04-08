@@ -1,25 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Bem-vindo ao So Izi</title>
+  <title>So Izi | Food Solution</title>
   <style>
     body {
-      background-color: #0f1a37;
-      color: white;
       font-family: Arial, sans-serif;
+      background: #0f1a37;
+      color: #ffffff;
       text-align: center;
-      padding-top: 10%;
+      margin: 0;
+      padding: 2rem;
     }
-    a {
-      color: #4FC3F7;
-      font-size: 1.5rem;
+    img.logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .botoes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .botao-area {
+      background: #003366;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      display: inline-block;
+    }
+    .botao-area:hover {
+      background: #0059b3;
     }
   </style>
 </head>
 <body>
-  <h1>Bem-vindo ao So Izi</h1>
-  <a href="relatorio.html">Ir para Gerador de Relatório</a>
+  <img src="LOGO.png" alt="Logo So Izi" class="logo">
+  <h1>So Izi | Food Solution</h1>
+  <p>Escolha uma área para começar:</p>
+
+  <div class="botoes">
+    <a href="p&d/index.html" class="botao-area">🧪 P&D</a>
+    <a href="#" class="botao-area">📜 Regulatórios</a>
+    <a href="#" class="botao-area">🛡️ Qualidade</a>
+    <a href="#" class="botao-area">🧪 Laboratórios</a>
+    <a href="#" class="botao-area">📢 CAC</a>
+    <a href="#" class="botao-area">⚙️ Processos</a>
+  </div>
 </body>
 </html>
